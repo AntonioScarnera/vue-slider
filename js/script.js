@@ -46,9 +46,6 @@ const app = new Vue({
         stopAutoScroll(){
             clearInterval(this.intervalId);
             this.intervalId = null;
-        },
-        thumbSelected(index){
-            this.activeIndex = index;
         }
     },
     mounted(){
